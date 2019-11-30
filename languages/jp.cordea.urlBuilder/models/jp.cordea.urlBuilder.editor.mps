@@ -20,6 +20,7 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
+      <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -101,6 +102,15 @@
       <node concept="3F2HdR" id="3JJpM5L4_Tr" role="3EZMnx">
         <ref role="1NtTu8" to="162x:3JJpM5L4_Ti" resolve="paths" />
         <node concept="l2Vlx" id="3JJpM5L4_Tu" role="2czzBx" />
+        <node concept="lj46D" id="3JJpM5L5MJc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="3JJpM5L5MNv" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pj6Ft" id="3JJpM5L5MUn" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="2iRkQZ" id="3JJpM5L4_Tn" role="2iSdaV" />
     </node>
@@ -150,6 +160,15 @@
       <node concept="3F2HdR" id="3JJpM5L4_V$" role="3EZMnx">
         <ref role="1NtTu8" to="162x:3JJpM5L4_VK" resolve="queries" />
         <node concept="l2Vlx" id="3JJpM5L4_VB" role="2czzBx" />
+        <node concept="lj46D" id="3JJpM5L5Nk2" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="3JJpM5L5Nol" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pj6Ft" id="3JJpM5L5NrP" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="2iRkQZ" id="3JJpM5L4_Vs" role="2iSdaV" />
     </node>
