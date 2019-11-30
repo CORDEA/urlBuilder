@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/jp.cordea.urlBuilder/jp.cordea.urlBuilder.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/jp.cordea.urlBuilder/runtime/jp.cordea.urlBuilder.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/jp.cordea.urlBuilder/sandbox/jp.cordea.urlBuilder.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

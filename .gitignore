@@ -1,0 +1,9 @@
+.idea/workspace.xml
+.idea/inspectionProfiles
+.mps/workspace.xml
+
+source_gen.caches/
+source_gen/
+classes_gen/
+
+.DS_Store
