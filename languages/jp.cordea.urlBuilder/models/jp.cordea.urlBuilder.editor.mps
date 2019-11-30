@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="162x" ref="r:66a84397-a455-4de8-9ed5-c5ad397982db(jp.cordea.urlBuilder.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -96,6 +97,39 @@
         </node>
       </node>
       <node concept="2iRfu4" id="3JJpM5L4_T$" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3JJpM5L4_Up">
+    <ref role="1XX52x" to="162x:3JJpM5L4_U9" resolve="QueryConcept" />
+    <node concept="3EZMnI" id="3JJpM5L4_Ut" role="2wV5jI">
+      <node concept="3F0A7n" id="3JJpM5L4_U$" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="ljvvj" id="3JJpM5L4_U_" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3JJpM5L4_UG" role="3EZMnx" />
+      <node concept="3F0ifn" id="3JJpM5L4_UQ" role="3EZMnx">
+        <property role="3F0ifm" value="=" />
+      </node>
+      <node concept="3F0ifn" id="3JJpM5L4_V2" role="3EZMnx" />
+      <node concept="3F0A7n" id="3JJpM5L4_Vg" role="3EZMnx">
+        <ref role="1NtTu8" to="162x:3JJpM5L4_Ug" resolve="value" />
+        <node concept="ljvvj" id="3JJpM5L4_Vh" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="3JJpM5L4_Uw" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3JJpM5L4_Ur">
+    <ref role="1XX52x" to="162x:3JJpM5L4_Um" resolve="QueryContainerConcept" />
+    <node concept="3EZMnI" id="3JJpM5L4_Vp" role="2wV5jI">
+      <node concept="3F2HdR" id="3JJpM5L4_V$" role="3EZMnx">
+        <ref role="1NtTu8" to="162x:3JJpM5L4_VK" resolve="queries" />
+        <node concept="l2Vlx" id="3JJpM5L4_VB" role="2czzBx" />
+      </node>
+      <node concept="2iRkQZ" id="3JJpM5L4_Vs" role="2iSdaV" />
     </node>
   </node>
 </model>
