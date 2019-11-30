@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="162x" ref="r:66a84397-a455-4de8-9ed5-c5ad397982db(jp.cordea.urlBuilder.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -51,14 +50,21 @@
         </node>
         <node concept="3F0ifn" id="3JJpM5L4_QY" role="3EZMnx" />
         <node concept="3F0A7n" id="3JJpM5L4_Rc" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1NtTu8" to="162x:3JJpM5L4_T6" resolve="scheme" />
           <node concept="ljvvj" id="3JJpM5L4_Rd" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
         <node concept="2iRfu4" id="3JJpM5L4_L9" role="2iSdaV" />
       </node>
+      <node concept="3F0ifn" id="3JJpM5L4_Sj" role="3EZMnx" />
       <node concept="2iRkQZ" id="3JJpM5L4_L0" role="2iSdaV" />
+      <node concept="3F0A7n" id="3JJpM5L4_SU" role="3EZMnx">
+        <ref role="1NtTu8" to="162x:3JJpM5L4_RQ" resolve="host" />
+        <node concept="ljvvj" id="3JJpM5L4_SV" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
