@@ -331,14 +331,14 @@
                 </node>
               </node>
               <node concept="2OqwBi" id="3JJpM5L8oBz" role="3clFbw">
-                <node concept="37vLTw" id="3JJpM5L8ouT" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3JJpM5L8naa" resolve="path" />
-                </node>
                 <node concept="liA8E" id="3JJpM5L8oJM" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
+                  <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
                   <node concept="Xl_RD" id="3JJpM5L8oKE" role="37wK5m">
                     <property role="Xl_RC" value="/" />
                   </node>
+                </node>
+                <node concept="37vLTw" id="3JJpM5LipUU" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3JJpM5L8kWc" resolve="url" />
                 </node>
               </node>
               <node concept="9aQIb" id="3JJpM5L8oQq" role="9aQIa">
