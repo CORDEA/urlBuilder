@@ -9,6 +9,8 @@
     <import index="89de" ref="r:2f477efd-3129-4952-abfc-bd1f6fbcadc2(jp.cordea.urlBuilder.runtime)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -31,6 +33,9 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
       </concept>
@@ -291,6 +296,26 @@
               <node concept="3clFbS" id="3JJpM5Li1lC" role="2VODD2">
                 <node concept="3clFbF" id="3JJpM5Li1lI" role="3cqZAp">
                   <node concept="30H73N" id="3JJpM5Li1lH" role="3clFbG" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3JJpM5Lif13" role="3cqZAp" />
+        <node concept="3clFbF" id="3JJpM5LifiB" role="3cqZAp">
+          <node concept="2OqwBi" id="3JJpM5LifM5" role="3clFbG">
+            <node concept="10M0yZ" id="3JJpM5Lifjk" role="2Oq$k0">
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+            </node>
+            <node concept="liA8E" id="3JJpM5LigdD" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="2OqwBi" id="3JJpM5LigpP" role="37wK5m">
+                <node concept="37vLTw" id="3JJpM5Ligg_" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3JJpM5L95K_" resolve="builder" />
+                </node>
+                <node concept="liA8E" id="3JJpM5Ligyu" role="2OqNvi">
+                  <ref role="37wK5l" to="89de:3JJpM5L62ov" resolve="build" />
                 </node>
               </node>
             </node>
