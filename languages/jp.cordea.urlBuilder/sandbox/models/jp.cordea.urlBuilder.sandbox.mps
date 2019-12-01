@@ -21,7 +21,6 @@
       </concept>
       <concept id="4318783961000205314" name="jp.cordea.urlBuilder.structure.UrlConcept" flags="ng" index="1aZjGz">
         <property id="4318783961000205894" name="scheme" index="1aZj_B" />
-        <property id="4318783961000205814" name="host" index="1aZjFn" />
         <child id="4318783961000206310" name="pathContainer" index="1aZjz7" />
         <child id="4318783961000206312" name="queryContainer" index="1aZjz9" />
       </concept>
@@ -32,16 +31,16 @@
       </concept>
     </language>
   </registry>
-  <node concept="1aZjGz" id="3JJpM5L4IOR">
+  <node concept="1aZjGz" id="3JJpM5L9YRZ">
     <property role="1aZj_B" value="https" />
-    <property role="1aZjFn" value="example.com" />
-    <node concept="1aZj_H" id="3JJpM5L4IOS" role="1aZjz7">
-      <node concept="1aZj_I" id="3JJpM5L4IUN" role="1aZj_N">
+    <property role="TrG5h" value="example.com" />
+    <node concept="1aZj_H" id="3JJpM5L9YS0" role="1aZjz7">
+      <node concept="1aZj_I" id="3JJpM5L9YUz" role="1aZj_N">
         <property role="1aZj_n" value="api/" />
       </node>
     </node>
-    <node concept="1aZjAR" id="3JJpM5L4J4f" role="1aZjz9">
-      <node concept="1aZjAC" id="3JJpM5L5R8l" role="1aZjBh">
+    <node concept="1aZjAR" id="3JJpM5L9YY1" role="1aZjz9">
+      <node concept="1aZjAC" id="3JJpM5L9YY3" role="1aZjBh">
         <property role="TrG5h" value="value" />
         <property role="1aZjAL" value="a" />
       </node>

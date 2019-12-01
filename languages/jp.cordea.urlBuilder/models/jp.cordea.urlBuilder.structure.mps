@@ -54,11 +54,6 @@
     <node concept="PrWs8" id="3JJpM5L4_Ku" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyi" id="3JJpM5L4_RQ" role="1TKVEl">
-      <property role="IQ2nx" value="4318783961000205814" />
-      <property role="TrG5h" value="host" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyj" id="3JJpM5L4_ZA" role="1TKVEi">
       <property role="IQ2ns" value="4318783961000206310" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
