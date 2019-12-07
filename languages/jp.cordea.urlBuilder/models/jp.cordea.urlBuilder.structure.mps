@@ -61,9 +61,9 @@
     <node concept="1TJgyj" id="3JJpM5L4_ZA" role="1TKVEi">
       <property role="IQ2ns" value="4318783961000206310" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="pathContainer" />
+      <property role="20kJfa" value="pathSegmentContainer" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3JJpM5L4_Tc" resolve="PathContainerConcept" />
+      <ref role="20lvS9" node="3JJpM5L4_Tc" resolve="PathSegmentContainerConcept" />
     </node>
     <node concept="1TJgyj" id="3JJpM5L4_ZC" role="1TKVEi">
       <property role="IQ2ns" value="4318783961000206312" />
@@ -75,23 +75,23 @@
   </node>
   <node concept="1TIwiD" id="3JJpM5L4_Tc">
     <property role="EcuMT" value="4318783961000205900" />
-    <property role="TrG5h" value="PathContainerConcept" />
+    <property role="TrG5h" value="PathSegmentContainerConcept" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3JJpM5L4_Ti" role="1TKVEi">
       <property role="IQ2ns" value="4318783961000205906" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="paths" />
+      <property role="20kJfa" value="pathSegments" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="3JJpM5L4_Tf" resolve="PathConcept" />
+      <ref role="20lvS9" node="3JJpM5L4_Tf" resolve="PathSegmentConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="3JJpM5L4_Tf">
     <property role="EcuMT" value="4318783961000205903" />
-    <property role="TrG5h" value="PathConcept" />
+    <property role="TrG5h" value="PathSegmentConcept" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3JJpM5L4_TQ" role="1TKVEl">
       <property role="IQ2nx" value="4318783961000205942" />
-      <property role="TrG5h" value="path" />
+      <property role="TrG5h" value="pathSegment" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

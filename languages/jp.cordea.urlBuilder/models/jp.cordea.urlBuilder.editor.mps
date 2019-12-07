@@ -76,7 +76,7 @@
       </node>
       <node concept="3F0ifn" id="3JJpM5L4_VM" role="3EZMnx" />
       <node concept="3F1sOY" id="3JJpM5L4_ZT" role="3EZMnx">
-        <ref role="1NtTu8" to="162x:3JJpM5L4_ZA" resolve="pathContainer" />
+        <ref role="1NtTu8" to="162x:3JJpM5L4_ZA" resolve="pathSegmentContainer" />
         <node concept="lj46D" id="3JJpM5L4_ZU" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -97,10 +97,10 @@
     </node>
   </node>
   <node concept="24kQdi" id="3JJpM5L4_Td">
-    <ref role="1XX52x" to="162x:3JJpM5L4_Tc" resolve="PathContainerConcept" />
+    <ref role="1XX52x" to="162x:3JJpM5L4_Tc" resolve="PathSegmentContainerConcept" />
     <node concept="3EZMnI" id="3JJpM5L4_Tk" role="2wV5jI">
       <node concept="3F2HdR" id="3JJpM5L4_Tr" role="3EZMnx">
-        <ref role="1NtTu8" to="162x:3JJpM5L4_Ti" resolve="paths" />
+        <ref role="1NtTu8" to="162x:3JJpM5L4_Ti" resolve="pathSegments" />
         <node concept="l2Vlx" id="3JJpM5L4_Tu" role="2czzBx" />
         <node concept="lj46D" id="3JJpM5L5MJc" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -116,13 +116,13 @@
     </node>
   </node>
   <node concept="24kQdi" id="3JJpM5L4_Tg">
-    <ref role="1XX52x" to="162x:3JJpM5L4_Tf" resolve="PathConcept" />
+    <ref role="1XX52x" to="162x:3JJpM5L4_Tf" resolve="PathSegmentConcept" />
     <node concept="3EZMnI" id="3JJpM5L4_Tx" role="2wV5jI">
       <node concept="3F0ifn" id="3JJpM5L4_TC" role="3EZMnx">
-        <property role="3F0ifm" value="path" />
+        <property role="3F0ifm" value="pathSegment" />
       </node>
       <node concept="3F0A7n" id="3JJpM5L4_U3" role="3EZMnx">
-        <ref role="1NtTu8" to="162x:3JJpM5L4_TQ" resolve="path" />
+        <ref role="1NtTu8" to="162x:3JJpM5L4_TQ" resolve="pathSegment" />
         <node concept="ljvvj" id="3JJpM5L4_U4" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
