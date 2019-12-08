@@ -57,7 +57,6 @@
         <node concept="3F0ifn" id="3JJpM5L4_M4" role="3EZMnx">
           <property role="3F0ifm" value="url" />
         </node>
-        <node concept="3F0ifn" id="3JJpM5L4_QY" role="3EZMnx" />
         <node concept="3F0A7n" id="3JJpM5L4_Rc" role="3EZMnx">
           <ref role="1NtTu8" to="162x:3JJpM5L4_T6" resolve="scheme" />
           <node concept="ljvvj" id="3JJpM5L4_Rd" role="3F10Kt">
